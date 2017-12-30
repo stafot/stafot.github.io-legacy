@@ -1,7 +1,7 @@
 # Site settings
 title: Stavros Foteinopoulos - DevOps Enginner
 description: "my personal blog ..."
-baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
 url: "http://stafot.github.io/"
 # User settings
 username: stafot

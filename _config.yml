@@ -1,18 +1,18 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+title: Stavros Foteinopoulos - DevOps Enginner
+description: "my personal blog ..."
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://stafot.github.io/"
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
-twitter_username: loremipsum
-github_username:  loremipsum
-gplus_username:  loremipsum
-linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-disqus_username: loremipsum
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+username: stafot
+user_title: DevOps
+email: stafot@gmail.com
+#twitter_username: loremipsum
+github_username:  stafot
+gplus_username:  stafot
+linkedin_public_url: stafot # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+#disqus_username: loremipsum
+profile_picture: https://avatars0.githubusercontent.com/u/2853082?s=400&u=4ae924ca30ec2631de243c8dddb0a7b9bb1e8fae&v=4
 
 # Build settings
 markdown: kramdown
@@ -33,19 +33,19 @@ links:
     url: /
   - title: my posts
     url: /posts
-  - title: series
-    url: /series
+#  - title: series
+#    url: /series
   - title: tags
     url: /tags
   - title: about me
     url: /about
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+#  - name: asciilang
+#    url: https://github.com/victorvoid/asciilang
+#  - name: vim-frontend
+#    url: https://github.com/victorvoid/vim-frontend
+#  - name: generator-capybara
+#    url: https://github.com/victorvoid/generator-capybara
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

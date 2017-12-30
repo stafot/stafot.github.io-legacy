@@ -2,7 +2,7 @@
 title: Stavros Foteinopoulos - DevOps Enginner
 description: "my personal blog ..."
 baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
-url: "http://stafot.github.io/"
+url: "http://stafot.github.io/space-jekyll-template"
 # User settings
 username: stafot
 user_title: DevOps

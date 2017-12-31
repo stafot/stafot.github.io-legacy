@@ -1,15 +1,15 @@
 # Site settings
 title: Stavros Foteinopoulos - DevOps Enginner
 description: "my personal blog ..."
-baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
-url: "https://stafot.github.io/space-jekyll-template/"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://stafot.github.io"
 # User settings
 username: stafot
 user_title: DevOps
 email: stafot@gmail.com
 #twitter_username: loremipsum
 github_username:  stafot
-gplus_username:  stafot
+gplus_username:  117203916724467570699
 linkedin_public_url: stafot # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 #disqus_username: loremipsum
 profile_picture: https://avatars0.githubusercontent.com/u/2853082?s=400&u=4ae924ca30ec2631de243c8dddb0a7b9bb1e8fae&v=4

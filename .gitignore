@@ -3,3 +3,10 @@ _site
 node_modules
 _drafts
 .idea/
+
+Gemfile
+Gemfile.lock
+
+.ruby-version
+.jekyll-cache
+.DS_Store

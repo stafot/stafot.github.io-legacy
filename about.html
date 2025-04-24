@@ -2,26 +2,77 @@
 layout: minimal
 title: "About me"
 permalink: /about/index.html
-description: "Info about me"
+description: "Senior Site Reliability Engineer focused on cloud infrastructure and FinOps"
 ---
 
 <img itemprop="image" class="img-rounded about_perfil"
      src="https://avatars0.githubusercontent.com/u/2853082?s=400&u=4ae924ca30ec2631de243c8dddb0a7b9bb1e8fae&v=4"
      alt="My profile">
 
-<h2>About me...</h2>
+<h2>About me</h2>
 
 <div class="aboutme">
-    My professional experience extends in almost whole lifecycle of Operations and Development process (Systems and
-    Networks Administration, Automation & Backup Solutions, Cloud infrastructure Designs & Setups, Logging Systems,
-    Security Auditing…)
-    <br/>I am almost obsessed with Systems visibility and clarity, but among all clouds I’ve ever dealt with the most
-    interesting and valuable is my little daughter Nefeli. <br/>
-    She is my main inspiration and gives me reasons to be better in all aspects of life...
+    <p>
+        Hello! I'm Stavros Foteinopoulos, a Senior Site Reliability Engineer II at Mattermost, based in Ioannina, Greece. 
+        With over 4 years at Mattermost, I specialize in cloud-native solutions with a strong focus on data sovereignty, 
+        reliability, and FinOps practices.
+    </p>
+    
+    <p>
+        In my current role, I lead initiatives in:
+        <ul>
+            <li>Cloud SaaS cost optimization and FinOps best practices implementation</li>
+            <li>Disaster Recovery tooling and minimal downtime strategies</li>
+            <li>Enterprise cloud infrastructure design and implementation</li>
+            <li>Team mentorship in SRE principles and cost management</li>
+        </ul>
+    </p>
+
+    <p>
+        I'm passionate about creating practical solutions that balance innovation with reliability, 
+        always focusing on sustainable and efficient infrastructure management. My expertise extends 
+        to cloud technologies, infrastructure automation, and building self-serve cultures within 
+        engineering teams.
+    </p>
 </div>
 
-<h2>My projects</h2>
+<h2>Open Source Contributions</h2>
+<div class="aboutme">
+    <p>
+        I'm an active contributor to various open-source projects in the cloud-native ecosystem. Some notable contributions include:
+    </p>
+    <ul class="contributions">
+        {% for project in site.projects %}
+        <li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
+        {% endfor %}
+    </ul>
+</div>
 
+<h2>Mentoring & Community</h2>
+<div class="aboutme">
+    <p>
+        I'm passionate about giving back to the tech community and helping underrepresented minorities succeed in technology careers.
+        Through my involvement with Tupu.io, I've had the privilege of mentoring aspiring SRE and DevOps engineers,
+        helping them transition into cloud-native roles and develop their technical skills.
+    </p>
+    
+    <p>
+        My mentoring focus includes:
+        <ul>
+            <li>Site Reliability Engineering principles and practices</li>
+            <li>Cloud-native technologies and Kubernetes</li>
+            <li>DevOps methodologies and tools</li>
+            <li>Career guidance and professional development</li>
+        </ul>
+    </p>
+    
+    <p>
+        Additionally, I provide technical advisory services to teams transitioning to cloud-native architectures,
+        sharing knowledge and best practices in infrastructure modernization.
+    </p>
+</div>
+
+<h2>My Projects</h2>
 <div class="aboutme">
     <ul class="recent">
         {% for project in site.projects %}
